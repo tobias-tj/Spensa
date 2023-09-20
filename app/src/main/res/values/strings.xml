@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SPENSA</string>
+    <string name="emailTitulo">Email</string>
+    <string name="contrasenhaTitulo">Contraseña</string>
+    <string name="editTextEmail">Ejemplo@gmail.com</string>
+    <string name="editTextPassword">*********</string>
+    <string name="resetPassword">Olvidaste tu contraseña? Presione Aqui</string>
+    <string name="ingresarTitulo">Ingresar Cuenta</string>
+    <string name="registrarTitulo">Registrar Cuenta</string>
+    <string name="ingresarNombre">Ingrese su nombre</string>
+    <string name="nombreTitulo">Nombre</string>
+    <string name="apellidoTitulo">Apellido</string>
+    <string name="ingresarApellido">Ingrese su apellido</string>
+    <string name="telefonoTitulo">Telefono</string>
+    <string name="editTextTelefono">Ingrese su numero de telefono</string>
+</resources>

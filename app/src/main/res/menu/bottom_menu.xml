@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/grafico_btn"
+        android:title="Grafico"
+        android:icon="@drawable/estadisticausuario"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/factura_btn"
+        android:title="Facturas"
+        android:icon="@drawable/iconfacturaa"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/vacio_btn"
+        android:title=""
+        android:enabled="false"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/billetera_btn"
+        android:title="Billetera"
+        android:icon="@drawable/iconbilleteraa"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/perfil_btn"
+        android:title="Perfil"
+        android:icon="@drawable/iconperfilnuevo"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

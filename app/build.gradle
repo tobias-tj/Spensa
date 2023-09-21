@@ -6,6 +6,10 @@ android {
     namespace 'com.tj.spensa'
     compileSdk 33
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.tj.spensa"
         minSdk 24

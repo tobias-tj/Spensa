@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -70,11 +69,8 @@ public class HomePage extends AppCompatActivity {
         });
 
         //Fragmento de Iconos (Nuevo/Ingreso/Egreso/Online)
-        buttonNuevo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
+        buttonNuevo.setOnClickListener(c->{
+            new AddNewTransaction().show(getSupportFragmentManager(),null);
         });
 
 

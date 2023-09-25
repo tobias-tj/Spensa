@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context=".RegisterSteps.TokenRegister">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register_token_logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/titleTokenRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOKEN SEGURIDAD"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/viewTokenRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Se te enviara  un mensaje SMS \n al numero de celular ingresado"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/titleMobileRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Ingrese número de celular"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/editTextMobileRegister"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:hint="+595 XXX XXX XXX"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#8e8e8e"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_registerToken"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/fondo_new_btn"
+            android:text="Enviar"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

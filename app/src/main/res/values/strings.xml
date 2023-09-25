@@ -13,4 +13,18 @@
     <string name="ingresarApellido">Ingrese su apellido</string>
     <string name="telefonoTitulo">Telefono</string>
     <string name="editTextTelefono">Ingrese su numero de telefono</string>
+    <string name="fechaNacimientoTitulo">Fecha de Nacimiento</string>
+    <string name="editTextFecha">Ingrese su fecha de nacimiento</string>
+    <string name="ciudadTitulo">Ciudad</string>
+    <string name="editTextCiudad">Seleccione la ciudad de su residencia</string>
+    <string name="barrioTitulo">Barrio</string>
+    <string name="editTextBarrio">Seleccione el barrio de su residencia</string>
+    <string name="siguienteBtn">Siguiente</string>
+    <string name="cedulaTitulo">Cedula</string>
+    <string name="editTextCedula">Ingrese su numero de cedula</string>
+    <string name="nombreUsuario">Nombre Usuario</string>
+    <string name="editTextNombreUsuario">Ingrese un nombre de usuario</string>
+    <string name="editTextCrearContra">Crea una contraseña</string>
+    <string name="contraRepit">Repetir Contraseña</string>
+    <string name="editTextCrearContra2">Escribe nuevamente la contraseña</string>
 </resources>

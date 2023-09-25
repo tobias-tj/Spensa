@@ -11,4 +11,6 @@
     <color name="colorGradient">#9D4FF2</color>
     <color name="opacityColor">#80FFFFFF</color>
     <color name="colorAppDesign">#2F1064</color>
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#A256F4</color>
 </resources>

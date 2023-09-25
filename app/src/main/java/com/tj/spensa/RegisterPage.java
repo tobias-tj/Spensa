@@ -2,11 +2,15 @@ package com.tj.spensa;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.tj.spensa.Presentations.PresentationPage;
+import com.tj.spensa.RegisterSteps.Step2;
 
 public class RegisterPage extends AppCompatActivity {
 
@@ -34,9 +38,10 @@ public class RegisterPage extends AppCompatActivity {
                 int currentStep = progressBar.getProgress();
                 if(currentStep < progressBar.getMax()){
                     currentStep++;
-                    progressBar.setProgress(currentStep);
-                    progressText.setText(currentStep + "/3");
-
+                    Intent intent = new Intent(RegisterPage.this, Step2.class);
+                    intent.putExtra("progress",currentStep + "/3");
+                    startActivity(intent);
+                    finish();
 
                 }
             }

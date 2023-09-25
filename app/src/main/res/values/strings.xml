@@ -27,4 +27,29 @@
     <string name="editTextCrearContra">Crea una contraseña</string>
     <string name="contraRepit">Repetir Contraseña</string>
     <string name="editTextCrearContra2">Escribe nuevamente la contraseña</string>
+
+
+    //Presentations:
+    //Cabeceros
+    <string name="cabecero_uno">Bienvenido a Spensa</string>
+    <string name="cabecero_dos">El flujo de tu dinero</string>
+    <string name="cabecero_tres">Tu seguridad \n Es nuestra prioridad</string>
+    //Descripciones
+    <string name="descripcion_uno">
+        <![CDATA[ \n• Simplificacion Financiera.\n• Almacenamiento de gastos y ingresos\n• Generación de facturas legales.\n• Resúmenes mensuales.\n• Control financiero eficiente y seguro.
+    ]]>
+    </string>
+    <string name="descripcion_dos">
+        <![CDATA[ \n• Registro de gastos y transferencias.\n• Categorización intuitiva.\n• Análisis de tendencias.\n• Optimizacion en el uso de tu dinero.
+    ]]>
+    </string>
+    <string name="descripcion_tres">
+        <![CDATA[\n• Encriptación de Datos de Alto Nivel.\n• Autenticacion con Token y Face ID.\n• Monitoreo continuo.\n• Transparencia.
+    ]]>
+    </string>
+    //Botones
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_atras">Atras</string>
+    <string name="btn_empezamos">Empezamos</string>
+
 </resources>

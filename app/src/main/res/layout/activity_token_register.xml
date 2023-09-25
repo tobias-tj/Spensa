@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Se te enviara  un mensaje SMS \n al numero de celular ingresado"
+            android:text="Se te enviara un mensaje SMS \n al numero de celular ingresado"
             android:textColor="@color/white"
             android:textAlignment="center"
             android:textSize="16sp"/>

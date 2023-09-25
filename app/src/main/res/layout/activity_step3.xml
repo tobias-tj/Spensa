@@ -24,13 +24,13 @@
             android:layout_gravity="center_vertical"
             android:orientation="horizontal">
             <ProgressBar
-                android:id="@+id/progressBar"
+                android:id="@+id/progressBarStep3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 style="?android:attr/progressBarStyleHorizontal" />
             <TextView
-                android:id="@+id/progressText"
+                android:id="@+id/progressTextStep3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3/3"

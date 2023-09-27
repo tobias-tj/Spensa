@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomePage"
-    android:background="@drawable/background_login">
+    android:background="#2F1064">
 
     <ScrollView
         android:id="@+id/scrollView2"

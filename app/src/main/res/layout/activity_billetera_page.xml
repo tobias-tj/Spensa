@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F1064"
+    tools:context=".BilleteraPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/billeteraEncabezado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Billetera"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/subrayadoEncabezado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/subrayado_encabezado"
+            android:backgroundTint="@color/colorGradient"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/billeteraEncabezado"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutBilletera"
+            android:layout_width="340dp"
+            android:layout_height="404dp"
+            android:background="@drawable/rectangulo_billetera"
+            android:orientation="vertical"
+            android:padding="32dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/subrayadoEncabezado"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <TextView
+                android:id="@+id/titleBilletera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar Tarjeta"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/descripcionBilletera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Añade tu tarjeta de debito/credito"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextBilleteraNum"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/background_input_billetera"
+                android:hint="Numero de tarjeta"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/editTextAlias"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/background_input_billetera"
+                android:hint="Ingrese Alias"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="15dp"
+                android:visibility="gone"/>
+            <EditText
+                android:id="@+id/editTextNombreTitular"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/background_input_billetera"
+                android:hint="Nombre completo del titular"
+                android:padding="8dp"
+                android:textColor="#8e8e8e"
+                android:textColorHint="#8e8e8e"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutSecurity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/editTextVencimiento"
+                    android:layout_width="173dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/background_input_billetera"
+                    android:hint="Fecha de Vencimiento"
+                    android:padding="6dp"
+                    android:textColor="#8e8e8e"
+                    android:textColorHint="#8e8e8e"
+                    android:textSize="15dp" />
+                <EditText
+                    android:id="@+id/editTextCodigo"
+                    android:layout_width="100dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/background_input_billetera"
+                    android:hint="Codigo"
+                    android:inputType="numberPassword"
+                    android:padding="6dp"
+                    android:textColor="#8e8e8e"
+                    android:textColorHint="#8e8e8e"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayoutAlias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:id="@+id/tengoAlias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tienes un alias?"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/btnTengoAlias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Ingrese aqui"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAgregarTarjeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_agregar_tarjeta"/>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBarBilletera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/colorAppDesign"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="10dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationViewBilletera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="#00FFFFFF"
+            app:menu="@menu/bottom_menu"
+            app:itemIconTint="@color/button_item_background"
+            app:itemTextColor="@color/button_item_background"/>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabBilletera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/colorAppDesign"
+        android:src="@drawable/iconhome"
+        app:layout_anchor="@id/bottomAppBarBilletera"
+        app:maxImageSize="20dp"
+        app:borderWidth="0dp"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
